@@ -1,9 +1,11 @@
-import BookBord from 'BookComponent/BookBord.jsx';
+import BookBord from "./components/BookBord";
 
-export default function App() {
+const App = () => {
   return (
     <div>
       <BookBord />
     </div>
   );
-}
+};
+
+export default App;
