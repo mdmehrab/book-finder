@@ -1,3 +1,9 @@
+import BookBord from 'BookComponent/BookBord.jsx';
+
 export default function App() {
-  return <h1>Hello rakib</h1>;
+  return (
+    <div>
+      <BookBord />
+    </div>
+  );
 }
